@@ -1,0 +1,6 @@
+private void Main()
+{
+    PlanSwift planswift = new PlanSwift();
+    IPropertyObject property = planswift.GetProperty(@"\Settings","AllowExtenderDPI")
+    console.WriteLn(property.ResultAsBoolean)
+}
